@@ -2,9 +2,6 @@ package com.parkingsystem.model;
 
 import java.time.LocalDateTime;
 
-/**
- * Representasi kendaraan jenis Truk.
- */
 public class Truck extends Vehicle {
 
     public static final String TYPE = "Truk";

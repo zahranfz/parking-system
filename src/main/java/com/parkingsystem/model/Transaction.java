@@ -5,9 +5,6 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
-/**
- * Catatan satu transaksi parkir yang telah selesai (check-out).
- */
 public class Transaction implements CsvWritable {
 
     public static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");

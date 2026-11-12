@@ -16,9 +16,6 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.function.BiFunction;
 
-/**
- * Layanan orkestrasi operasi check-in, check-out, status slot, dan riwayat parkir.
- */
 public class ParkingService {
 
     private static final Map<String, BiFunction<String, LocalDateTime, Vehicle>> VEHICLE_CREATORS =

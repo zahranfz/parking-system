@@ -6,9 +6,6 @@ import java.awt.Dimension;
 import javax.swing.JFrame;
 import javax.swing.JTabbedPane;
 
-/**
- * Window utama aplikasi sistem parkir dengan 4 tab utama.
- */
 public class MainFrame extends JFrame {
 
     private final SlotStatusPanel slotStatusPanel;

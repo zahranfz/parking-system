@@ -22,9 +22,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-/**
- * Panel tab Check-In kendaraan masuk.
- */
+
 public class CheckInPanel extends JPanel {
 
     private final ParkingService parkingService;

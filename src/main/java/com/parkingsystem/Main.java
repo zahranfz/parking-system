@@ -7,9 +7,6 @@ import com.parkingsystem.service.ParkingService;
 import com.parkingsystem.ui.MainFrame;
 import javax.swing.SwingUtilities;
 
-/**
- * Entry point aplikasi sistem parkir sederhana.
- */
 public class Main {
 
     public static void main(String[] args) {

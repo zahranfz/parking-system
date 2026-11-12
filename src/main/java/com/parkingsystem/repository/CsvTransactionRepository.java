@@ -18,9 +18,6 @@ import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Implementasi TransactionRepository untuk menyimpan dan membaca transaksi dari file CSV lokal.
- */
 public class CsvTransactionRepository implements TransactionRepository {
 
     public static final String DEFAULT_FILE_NAME = "transactions.csv";

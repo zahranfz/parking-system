@@ -15,9 +15,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
-/**
- * Panel tab Riwayat untuk menampilkan transaksi yang dibaca dari file CSV.
- */
 public class HistoryPanel extends JPanel {
 
     private final ParkingService parkingService;

@@ -19,9 +19,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-/**
- * Panel tab Check-Out kendaraan keluar dan perhitungan biaya parkir.
- */
 public class CheckOutPanel extends JPanel {
 
     private final ParkingService parkingService;

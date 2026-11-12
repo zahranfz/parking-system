@@ -3,9 +3,7 @@ package com.parkingsystem.model;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-/**
- * Abstract class dasar untuk seluruh jenis kendaraan yang parkir.
- */
+
 public abstract class Vehicle {
 
     private final String licensePlate;
@@ -31,13 +29,6 @@ public abstract class Vehicle {
         return entryTime;
     }
 
-    /**
-     * Mengembalikan tarif parkir per jam untuk jenis kendaraan ini (dalam Rupiah).
-     */
     public abstract long getRatePerHour();
-
-    /**
-     * Mengembalikan nama jenis kendaraan (Motor, Mobil, atau Truk).
-     */
     public abstract String getVehicleType();
 }

@@ -10,9 +10,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * Mengelola kumpulan ParkingSlot untuk setiap jenis kendaraan.
- */
 public class ParkingLot {
 
     public static final int DEFAULT_MOTOR_SLOTS = 10;

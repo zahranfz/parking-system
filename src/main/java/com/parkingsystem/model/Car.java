@@ -2,9 +2,6 @@ package com.parkingsystem.model;
 
 import java.time.LocalDateTime;
 
-/**
- * Representasi kendaraan jenis Mobil.
- */
 public class Car extends Vehicle {
 
     public static final String TYPE = "Mobil";

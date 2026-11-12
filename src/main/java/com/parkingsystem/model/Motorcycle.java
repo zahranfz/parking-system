@@ -2,9 +2,6 @@ package com.parkingsystem.model;
 
 import java.time.LocalDateTime;
 
-/**
- * Representasi kendaraan jenis Motor.
- */
 public class Motorcycle extends Vehicle {
 
     public static final String TYPE = "Motor";

@@ -2,9 +2,6 @@ package com.parkingsystem.model;
 
 import java.util.Objects;
 
-/**
- * Merepresentasikan satu slot parkir dengan kapasitas untuk satu jenis kendaraan.
- */
 public class ParkingSlot {
 
     private final String slotId;

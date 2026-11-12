@@ -17,9 +17,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
-/**
- * Panel tab Status Slot untuk menampilkan sisa kapasitas dan daftar slot secara real-time.
- */
 public class SlotStatusPanel extends JPanel {
 
     private final ParkingService parkingService;
